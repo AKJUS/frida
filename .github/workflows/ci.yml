@@ -817,7 +817,7 @@ jobs:
         if: matrix.arch == 'x86_64'
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.7.0'
+          version: '6.11.1'
           cache: true
           setup-python: false
       - name: Configure
@@ -1135,7 +1135,7 @@ jobs:
         if: matrix.arch != 'arm64e'
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.7.0'
+          version: '6.11.1'
           cache: true
           setup-python: false
       - name: Configure
@@ -1288,7 +1288,7 @@ jobs:
         if: matrix.arch == 'x86_64'
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.7.0'
+          version: '6.11.1'
           cache: true
           setup-python: false
       - name: Configure
